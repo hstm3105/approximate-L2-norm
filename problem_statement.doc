@@ -1,0 +1,12 @@
+Train a model to compute the L2 Norm of a vector. The vector X has `n` data points.  L2 norm is defined as the square root of the sum of squares of the elements of the vector.
+Once the model is trained, we should have the ability to provide a vector as input and the learned model should return the L2 Norm of the vector.
+
+Constraints:
+-10 <= x_i <= 10
+1 <= n <= 100
+
+Input format:
+First line of the input file will be `n` and `m`, the size of each vector and the number of vectors respectively. Then, `m` lines follow, each with space separated elements of the i_th vector.
+
+Output format:
+Each line of the output should be the L2 norm of the corresponding vector returned by a model trained to compute L2 norm.
